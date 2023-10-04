@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81b80f02-1233-4f0b-a55f-c70b1e14668a" name="Changes" comment="">
+    <list default="true" id="81b80f02-1233-4f0b-a55f-c70b1e14668a" name="Changes" comment="Созданы рабочие классы и методы: счетчик, меню, регистратор,домашнее животное. Все как бы работает, но теперь надо привязаться к БД.&#10;исправлен вывод все животных с вычислением их возраста и определением класса (домашние-вьючные). Не выведены пока изученные животным команды.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AnimalManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Donkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Donkey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ham.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ham.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Horse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696369099023</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Созданы рабочие классы и методы: счетчик, меню, регистратор,домашнее животное. Все как бы работает, но теперь надо привязаться к БД.&#10;исправлен вывод все животных с вычислением их возраста и определением класса (домашние-вьючные). Не выведены пока изученные животным команды.">
+      <created>1696408370019</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696408370019</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,7 +122,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Созданы рабочие классы и методы: счетчик, меню, регистратор,домашнее животное. Все как бы работает, но теперь надо привязаться к БД." />
-    <option name="LAST_COMMIT_MESSAGE" value="Созданы рабочие классы и методы: счетчик, меню, регистратор,домашнее животное. Все как бы работает, но теперь надо привязаться к БД." />
+    <MESSAGE value="Созданы рабочие классы и методы: счетчик, меню, регистратор,домашнее животное. Все как бы работает, но теперь надо привязаться к БД.&#10;исправлен вывод все животных с вычислением их возраста и определением класса (домашние-вьючные). Не выведены пока изученные животным команды." />
+    <option name="LAST_COMMIT_MESSAGE" value="Созданы рабочие классы и методы: счетчик, меню, регистратор,домашнее животное. Все как бы работает, но теперь надо привязаться к БД.&#10;исправлен вывод все животных с вычислением их возраста и определением класса (домашние-вьючные). Не выведены пока изученные животным команды." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

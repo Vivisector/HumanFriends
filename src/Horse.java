@@ -1,13 +1,19 @@
+import java.sql.Connection;
 import java.util.Date;
 
 public class Horse extends Animal {
-    public Horse(String name, Date birthDate) {
-        super(name, "лошадь", birthDate);
+    public Horse(String name, String breed, String commands, Date birthDate) {
+        super(name, breed, commands, birthDate);
+    }
+
+//    @Override
+    public void listCommands() {
+        // Реализация вывода списка команд для кошки
     }
 
     @Override
-    public void listCommands() {
-        // Реализация вывода списка команд для кошки
+    public void listCommands(Connection connection) {
+
     }
 
     @Override

@@ -90,15 +90,15 @@ public class AnimalManager {
 
         // В зависимости от вида (species) создаем экземпляр нужного класса
         if ("Собаки".equalsIgnoreCase(species) || "собака".equalsIgnoreCase(species)) {
-            return new Dog(name, birthDateStr);
+            return new Dog(name, species, commands, birthDateStr);
         } else if ("Кошки".equalsIgnoreCase(species) || "кошка".equalsIgnoreCase(species)) {
-            return new Cat(name, birthDateStr);
+            return new Cat(name, species, commands, birthDateStr);
         } else if ("Хомяки".equalsIgnoreCase(species) || "хомяк".equalsIgnoreCase(species)) {
-            return new Ham(name, birthDateStr);
+            return new Ham(name, species, commands, birthDateStr);
         } else if ("Лошади".equalsIgnoreCase(species) || "лошадь".equalsIgnoreCase(species)) {
-            return new Horse(name, birthDateStr);
+            return new Horse(name, species, commands, birthDateStr);
         } else if ("Лошади_и_Ослы".equalsIgnoreCase(species) || "лошадь".equalsIgnoreCase(species) || "осел".equalsIgnoreCase(species)) {
-            return new Donkey(name, birthDateStr);
+            return new Donkey(name, species, commands, birthDateStr);
         } else {
             // В случае неизвестного вида животного можно вернуть null или выбрать другую стратегию
             return null;

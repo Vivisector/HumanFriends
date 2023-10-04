@@ -1,3 +1,4 @@
+import java.sql.Connection;
 import java.time.LocalDate;
 import java.util.Calendar;
 import java.time.Period;
@@ -7,11 +8,13 @@ import java.util.Date;
 public abstract class Animal {
     private String name;
     private String breed;
+    private String commands;
     private Date birthDate;
 
-    public Animal(String name, String breed,  Date birthDate) {
+    public Animal(String name, String breed, String commands, Date birthDate) {
         this.name = name;
         this.breed = breed;
+        this.commands = commands;
         this.birthDate = birthDate;
     }
 
@@ -22,6 +25,10 @@ public abstract class Animal {
     public String getBreed() {
         return breed;
     }
+
+//    public String getCommands() {
+//        return commands;
+//    }
 
 //    public int getAge() {
 //        LocalDate currentDate = LocalDate.now();
@@ -46,7 +53,8 @@ public int calculateAgeInYears() {
 
     return years;
 }
-    public abstract void listCommands();
+//    public abstract void listCommands();
+    public abstract void listCommands(Connection connection);
 
     public abstract void teachCommand(String command);
 
@@ -54,7 +62,7 @@ public int calculateAgeInYears() {
     public String toString() {
         int age = calculateAgeInYears();
         String animalClass = AnimalManager.determineAnimalClass(breed); // Определите класс животного здесь
-        return "Имя: " + name + ", Порода: " + breed + ", Возраст: " + age + " лет, Класс: " + animalClass;
+        return "Имя: " + name + ", Порода: " + breed + ", Возраст: " + age + " лет, Класс: " + animalClass + ", Выученные команды: " + commands;
     }
 
 }
