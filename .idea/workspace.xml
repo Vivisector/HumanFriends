@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81b80f02-1233-4f0b-a55f-c70b1e14668a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AnimalRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CounterException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DomesticAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +24,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2668e0b8-330b-42a3-80f8-3c53ed3d155e" />
+        <option name="url" value="https://github.com/Vivisector/HumanFriends.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectId" id="2WAojn6Qt5ViTgOjYmYlP67hEzS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -36,13 +45,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Dropbox/MGUA/left/GeekBrains/Промежуточная контрольная работа по блоку специализация/HumanFriends/lib/mysql-connector-j-8.1.0.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -66,6 +80,21 @@
       <option name="presentableId" value="Default" />
       <updated>1696184883403</updated>
     </task>
+    <task id="LOCAL-00001" summary="Созданы рабочие классы и методы: счетчик, меню, регистратор,домашнее животное. Все как бы работает, но теперь надо привязаться к БД.">
+      <created>1696337872212</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696337872212</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Созданы рабочие классы и методы: счетчик, меню, регистратор,домашнее животное. Все как бы работает, но теперь надо привязаться к БД.">
+      <created>1696369099023</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696369099023</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,5 +107,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Созданы рабочие классы и методы: счетчик, меню, регистратор,домашнее животное. Все как бы работает, но теперь надо привязаться к БД." />
+    <option name="LAST_COMMIT_MESSAGE" value="Созданы рабочие классы и методы: счетчик, меню, регистратор,домашнее животное. Все как бы работает, но теперь надо привязаться к БД." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AnimalManager.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
